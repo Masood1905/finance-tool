@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.db
+data/raw/*
+data/processed/*
+!data/raw/sample_transactions.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+powerbi/*.csv
+*.pbix
