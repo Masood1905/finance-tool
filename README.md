@@ -4,7 +4,7 @@ Automatically categorizes bank transactions, flags unusual spending, and tracks 
 
 Built with Excel, Python, SQL (SQLite), Power BI, and Streamlit.
 
-**Live app:** [Personal Finance / Expense Intelligence Tool](https://finance-tool-yn4qjsga4esrfdeccr57ny.streamlit.app/)
+**Live app:** [Personal Finance / Expense Intelligence Tool](https://abdullah-finance-tool.streamlit.app)
 
 ## Problem Statement
 
