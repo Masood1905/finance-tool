@@ -23,7 +23,7 @@ st.title("Personal Finance / Expense Intelligence Tool")
 # ---------- Sidebar: inputs ----------
 with st.sidebar:
     st.header("1. Your data")
-    uploads = st.file_uploader("Upload statement CSV file(s)", type="csv", accept_multiple_files=True)
+    uploads = st.file_uploader("Upload statement file(s) (CSV or Excel)", type=["csv", "xlsx"], accept_multiple_files=True)
     use_sample = st.checkbox("Use sample data instead", value=not uploads, disabled=bool(uploads))
     st.header("2. Settings")
     z_threshold = st.slider("Anomaly sensitivity (standard deviations)", 1.0, 4.0, 2.0, 0.5)
